@@ -49,3 +49,5 @@ function decrement() {
     document.getElementById("increment").innerHTML = 
     "This is 8 decremented: " + Y;
 }
+
+window.alert(Math.random() * 100);

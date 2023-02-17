@@ -12,3 +12,7 @@ function true_function() {
 function false_function() {
     document.getElementById("false").innerHTML = isNaN(007);
 }
+
+document.write(2E310);
+
+document.write(-3E310);

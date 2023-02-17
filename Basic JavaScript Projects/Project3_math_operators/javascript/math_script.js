@@ -29,3 +29,9 @@ function modulus_Operator() {
     document.getElementById("remainder").innerHTML = "When you divide 25\
     by 6 you have a remainder of: " + simple_Math;
 }
+
+function negation_Operator() {
+    var x = 10;
+    document.getElementById("remainder").innerHTML = 
+    "The opposite of 10 would be: " + -x;
+}

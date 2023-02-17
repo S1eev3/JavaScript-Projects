@@ -35,3 +35,17 @@ function negation_Operator() {
     document.getElementById("remainder").innerHTML = 
     "The opposite of 10 would be: " + -x;
 }
+
+function increment() {
+    var X = 5;
+    X++;
+    document.getElementById("increment").innerHTML = 
+    "This is 5 incremented: " + X;
+}
+
+function decrement() {
+    var Y = 8;
+    Y--;
+    document.getElementById("increment").innerHTML = 
+    "This is 8 decremented: " + Y;
+}

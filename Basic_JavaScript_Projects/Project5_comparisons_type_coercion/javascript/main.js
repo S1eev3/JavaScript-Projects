@@ -28,3 +28,19 @@ console.log(20 < 10);
 document.write(20 == 20);
 
 document.write(5 == 25);
+
+X = 5;
+Y = 5;
+document.write(X === Y);
+
+M = 13;
+N = "Bob";
+document.write(M === N);
+
+P = 10;
+Q = "Ten";
+document.write(P === Q);
+
+A = "Magnus";
+B = "Opus";
+document.write(A === B);

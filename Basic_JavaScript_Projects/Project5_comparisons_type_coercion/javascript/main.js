@@ -44,3 +44,12 @@ document.write(P === Q);
 A = "Magnus";
 B = "Opus";
 document.write(A === B);
+
+document.write(10 > 5 && 10 > 8);
+
+document.write(10 > 5 && 10 > 12);
+
+document.write(20 > 10 || 20 > 30);
+
+document.write(20 > 30 || 30 > 40);
+

@@ -53,3 +53,10 @@ document.write(20 > 10 || 20 > 30);
 
 document.write(20 > 30 || 30 > 40);
 
+function not_Function() {
+    document.getElementById("NOT").innerHTML = !(20 > 10);
+}
+
+function not_Function2() {
+    document.getElementById("NOT2").innerHTML = !(30 < 10);
+}

@@ -5,6 +5,15 @@ function Add_numbers_1() {
 function Add_numbers_2() {
     document.getElementById("Number_two").innerHTML = (X + 100);
 }
-Add_numbers_1();
-Add_numbers_2();
 
+
+function Subtract_numbers_1() {
+    var Y = 50;
+    document.getElementById("Number_three").innerHTML = (Y - 10);
+}
+function Subtract_numbers_2() {
+    document.getElementById("Number_four").innerHTML = (Y - 20);
+}
+function Subtract_numbers_2() {
+    console.log(Y - 20);
+}

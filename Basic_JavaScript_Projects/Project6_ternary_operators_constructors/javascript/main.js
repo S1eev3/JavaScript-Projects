@@ -42,6 +42,6 @@ var Paige = new Student("Paige", "Lowry", 22, "Part-Time", "Remote");
 var Kevin = new Student("Kevin", "Holmes", 20, "Part-Time", "Campus");
 function studentInfo() {
     document.getElementById("New_and_This").innerHTML =
-        Stephanie.Student_First + Stephanie.Student_Last + " is a " + Stephanie.Student_Age +
+        Stephanie.Student_First + " " + Stephanie.Student_Last + " is a " + Stephanie.Student_Age +
         " year old " + Stephanie.Student_Load + " student studying " + Stephanie.Student_Location + ".";
 }

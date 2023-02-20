@@ -27,3 +27,22 @@ function myFunction() {
         "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model +
         " manufatured in " + Erik.Vehicle_Year;
 }
+
+function Student(First, Last, Age, Load, Location) {
+    this.Student_First = FirstName;
+    this.Student_Last = LastName;
+    this.Student_Age = Age;
+    this.Student_Load = Load;
+    this.Student_Location = Location;
+}
+
+var Jason = new Student("Jason", "Smith", 22, "Full-Time", "Campus");
+var Stephanie = new Student("Stephanie", "Hurtz", 19, "Full-Time", "Remote");
+var Paige = new Student("Paige", "Lowry", 22, "Part-Time", "Remote");
+var Kevin = new Student("Kevin", "Holmes", 20, "Part-Time", "Campus");
+
+function StudentInfo() {
+    document.getElementById("New_and_This").innerHTML = 
+        Stephanie.FirstName + Stephanie.LastName + " is a " + Stephanie.Age + " year old "
+        Stephanie.Load + " student studying " + Stephanie.Location + ".";
+}

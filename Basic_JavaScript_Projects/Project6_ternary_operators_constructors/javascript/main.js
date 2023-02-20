@@ -36,10 +36,10 @@ function Student(First, Last, Age, Load, Location) {
     this.Student_Location = Location;
 }
 
-var Jason = new Student("Jason", "Smith", 22, "Full-Time", "Campus");
+var Jason = new Student("Jason", "Smith", 22, "Full-Time", "on Campus");
 var Stephanie = new Student("Stephanie", "Hurtz", 19, "Full-Time", "Remote");
 var Paige = new Student("Paige", "Lowry", 22, "Part-Time", "Remote");
-var Kevin = new Student("Kevin", "Holmes", 20, "Part-Time", "Campus");
+var Kevin = new Student("Kevin", "Holmes", 20, "Part-Time", " on Campus");
 function studentInfo() {
     document.getElementById("New_and_This").innerHTML =
         Stephanie.Student_First + " " + Stephanie.Student_Last + " is a " + Stephanie.Student_Age +

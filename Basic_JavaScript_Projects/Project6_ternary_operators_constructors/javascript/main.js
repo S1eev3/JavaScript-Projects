@@ -45,3 +45,13 @@ function studentInfo() {
         Stephanie.Student_First + " " + Stephanie.Student_Last + " is a " + Stephanie.Student_Age +
         " year old " + Stephanie.Student_Load + " student studying " + Stephanie.Student_Location + ".";
 }
+
+function count_Function() {
+    document.getElementById("Nested_Function").innerHTML = Count();
+    function Count(){
+        var Starting_point = 9;
+        function Plus_one() {Starting_point += 1;}
+    Plus_one();
+    return Starting_point;
+    }
+}

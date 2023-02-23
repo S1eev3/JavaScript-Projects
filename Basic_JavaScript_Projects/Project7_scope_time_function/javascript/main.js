@@ -17,3 +17,16 @@ function Subtract_numbers_2() {     //Named Function
 function Subtract_numbers_2() {     //Named function
     console.log(Y - 20);    //Function to display error to console log
 }
+
+function get_Date() {
+    if (new Date().getHours() < 18) {
+        document.getElementById("Greeting").innerHTML = "How are you today?";
+    }
+}
+
+function good_Day() {
+    if (new Date().getHours() < 12) {
+        document.getElementById("Greeting2").innerHTML = "Good Morning!";
+    }
+    else (document.getElementById("Greeting2").innerHTML = "Good Evening!");
+}

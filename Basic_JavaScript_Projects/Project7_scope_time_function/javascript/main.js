@@ -18,41 +18,41 @@ function Subtract_numbers_2() {     //Named function
     console.log(Y - 20);    //Function to display error to console log
 }
 
-function get_Date() {
-    if (new Date().getHours() < 18) {
-        document.getElementById("Greeting").innerHTML = "How are you today?";
+function get_Date() {       //Named Function
+    if (new Date().getHours() < 18) {   //If time is earlier than 6pm
+        document.getElementById("Greeting").innerHTML = "How are you today?"; //Display if statement is true
     }
 }
 
-function good_Day() {
-    if (new Date().getHours() < 12) {
-        document.getElementById("Greeting2").innerHTML = "Good Morning!";
+function good_Day() {       //Named function
+    if (new Date().getHours() < 12) {       //If time is before 12pm
+        document.getElementById("Greeting2").innerHTML = "Good Morning!"; //Display if true
     }
-    else (document.getElementById("Greeting2").innerHTML = "Good Evening!");
-}
+    else (document.getElementById("Greeting2").innerHTML = "Good Evening!");    //Display if later than 12pm
+}               //should do else if for afternoon also but only needed if statement for this assignment
 
-function Age_Function() {
-    Age = document.getElementById("Age").value;
+function Age_Function() {       //Named function
+    Age = document.getElementById("Age").value;     //User input for value of Age variable
     if (Age >= 25) {
-        Rental = "You are able to rent this car.";
+        Rental = "You are able to rent this car.";  //Value of "Rental" if 25 or older
     }
     else {
-        Rental = "You are unable to rent this car.";
+        Rental = "You are unable to rent this car.";    //Value of "Rental" if younger than 25
     }
-    document.getElementById("How_old_are_you?").innerHTML = Rental;
+    document.getElementById("How_old_are_you?").innerHTML = Rental; //Display value of "Rental" based on if else statment
 }
 
-function Time_Function() {
-    var Time = new Date().getHours();
-    var Reply;
-    if (Time < 12 == Time > 0) {
-        Reply = "It is morning time!";
+function Time_Function() {      //Named function
+    var Time = new Date().getHours();   //Use getHours for value of Time variable
+    var Reply;  //Declare Reply variable
+    if (Time < 12 == Time > 0) {    //If statement to determine morning
+        Reply = "It is morning time!";  //Value of Reply variable if true
     }
-    else if (Time >= 12 == Time < 18) {
-        Reply = "It is afternoon.";
+    else if (Time >= 12 == Time < 18) {     //Else if it is not morning statement
+        Reply = "It is afternoon.";         //Value of Reply if true
     }
     else {
-        Reply = "It is evening time.";
+        Reply = "It is evening time.";      //Value of Reply if neither if nor else if are true
     }
-    document.getElementById("Time_of_day").innerHTML = Reply;
+    document.getElementById("Time_of_day").innerHTML = Reply; //Dispaly value of Reply based on if/else/elif
 }

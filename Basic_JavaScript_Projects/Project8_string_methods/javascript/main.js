@@ -12,3 +12,9 @@ function slice_Method() {
     var Section = Sentence.slice(27, 33);
     document.getElementById("Slice").innerHTML = Section;
 }
+
+function case_Upper() {
+    var text = "Here is some text.";
+    var result = text.toUpperCase();
+    document.getElementById("Upper").innerHTML = result;
+}

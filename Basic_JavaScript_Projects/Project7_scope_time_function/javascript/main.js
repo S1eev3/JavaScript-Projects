@@ -30,3 +30,14 @@ function good_Day() {
     }
     else (document.getElementById("Greeting2").innerHTML = "Good Evening!");
 }
+
+function Age_Function() {
+    Age = document.getElementById("Age").value;
+    if (Age >= 25) {
+        Rental = "You are able to rent this car.";
+    }
+    else {
+        Rental = "You are unable to rent this car.";
+    }
+    document.getElementById("How_old_are_you?").innerHTML = Rental;
+}

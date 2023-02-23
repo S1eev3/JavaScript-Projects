@@ -24,3 +24,8 @@ function word_Position() {
     var result = text.search("dog");
     document.getElementById("search").innerHTML = result;
 }
+
+function string_Method() {
+    var X = 182;
+    document.getElementById("Numbers_to_string").innerHTML = X.toString();
+}

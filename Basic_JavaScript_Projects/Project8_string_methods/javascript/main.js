@@ -18,3 +18,9 @@ function case_Upper() {
     var result = text.toUpperCase();
     document.getElementById("Upper").innerHTML = result;
 }
+
+function word_Position() {
+    var text = "I have a cat and a dog.";
+    var result = text.search("dog");
+    document.getElementById("search").innerHTML = result;
+}

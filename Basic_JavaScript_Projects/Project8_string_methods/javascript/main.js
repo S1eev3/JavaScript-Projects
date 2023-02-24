@@ -36,6 +36,11 @@ function precision_Method() {
 }
 
 function fixedMethod() {
-    var Y = 78.5926543
+    var Y = 78.5926543;
     document.getElementById("Fixed").innerHTML = Y.toFixed(3);
+}
+
+function valueString() {
+    var Z = "JavaScript Project 8";
+    document.getElementById("String_Value").innerHTML = Z.valueOf();
 }

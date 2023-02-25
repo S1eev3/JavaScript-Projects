@@ -14,3 +14,13 @@ function NumberofLetters() {    //Named function
     var length = text.length;   //Declared variable length with value using text.length method
     document.getElementById("Amount").innerHTML = length;   //Display value of length
 }
+
+function loopFunction() {
+    var text = "";
+    var i = 0;
+    while (i < 10) {
+        text += "<br>The number is " + i;
+        i++
+    }
+    document.getElementById("counting").innerHTML = text;
+}

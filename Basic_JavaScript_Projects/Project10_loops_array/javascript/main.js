@@ -8,3 +8,9 @@ function Call_Loop() {      //I'm not sure if the counter isn't working properly
     }
     document.getElementById("Presents").innerHTML = "Enjoy your presents!";
 }
+
+function NumberofLetters() {    //Named function
+    var text = "Hello World";   //Declared variable text with value
+    var length = text.length;   //Declared variable length with value using text.length method
+    document.getElementById("Amount").innerHTML = length;   //Display value of length
+}

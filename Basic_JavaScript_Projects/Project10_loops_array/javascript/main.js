@@ -3,7 +3,7 @@ function Call_Loop() {      //I'm not sure if the counter isn't working properly
     var Birthday = "Happy Birthday!";
     Counter = 0;
     while (Counter < Age) {
-        document.getElementById("Loop").innerHTML = Birthday;
+        document.getElementById("Loop").innerHTML = Birthday;   //Also not sure if I need to add a <br> here to show each instance if the counter is working I tried a few ways and none worked
         Counter = Counter + 1;
     }
     document.getElementById("Presents").innerHTML = "Enjoy your presents!";

@@ -1,12 +1,12 @@
-function Call_Loop() {      //I'm not sure if the counter isn't working properly or if it's just not showing every instance of "Happy Birthday!"
+function Call_Loop() {
     var Age = document.getElementById("Age").value;
-    var Birthday = "Happy Birthday!";
+    var Birthday = "";
     Counter = 0;
     while (Counter < Age) {
-        document.getElementById("Loop").innerHTML = Birthday;   //Also not sure if I need to add a <br> here to show each instance if the counter is working I tried a few ways and none worked
-        Counter = Counter + 1;
+        Birthday += "<br>Happy Birthday!</br>";
+        Counter++
     }
-    document.getElementById("Presents").innerHTML = "Enjoy your presents!";
+    document.getElementById("Loop").innerHTML = Birthday + "<br>Enjoy you presents!</br>";
 }
 
 function NumberofLetters() {    //Named function

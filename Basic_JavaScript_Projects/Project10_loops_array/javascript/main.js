@@ -61,3 +61,11 @@ function let_function() {
     let sum = (X * 10);
     document.getElementById("Let").innerHTML = sum; 
 }
+
+var x = multiply_function(5, 7);
+document.getElementById("Return").innerHTML = x;
+
+function multiply_function(a, b) {
+    return a * b;
+}
+

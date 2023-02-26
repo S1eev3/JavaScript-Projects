@@ -54,4 +54,10 @@ function constant_function() {
     document.getElementById("Constant").innerHTML = "My favorite snowboard to ride is my " +
         snowboard.make + " " + snowboard.name + " which has a " + snowboard.shape +
         " style shape, and I currently use " + snowboard.bindings + " bindings.";
-}    
+}
+
+function let_function() {
+    let X = 10;
+    let sum = (X * 10);
+    document.getElementById("Let").innerHTML = sum; 
+}

@@ -69,3 +69,14 @@ function multiply_function(a, b) {
     return a * b;
 }
 
+let vehicle = {
+    make: "Jeep ",
+    model: "Cherokee ",
+    year: "2001 ",
+    color: "green ",
+    description: function () {
+        return "The vehicle is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("Vehicle_Object").innerHTML = vehicle.description();
+

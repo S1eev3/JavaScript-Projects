@@ -45,3 +45,13 @@ function array_Function() {
     document.getElementById("Array").innerHTML =
         Video_Game[0] + " is one of the games my friends and I are currently playing."
 }
+
+function constant_function() {
+    const snowboard = { make: "Capita", name: "TFA", size: "157" }
+    snowboard.flex = 7;
+    snowboard.shape = "reverse camber/flat kicker";
+    snowboard.bindings = "Union Force"
+    document.getElementById("Constant").innerHTML = "My favorite snowboard to ride is my " +
+        snowboard.make + " " + snowboard.name + " which has a " + snowboard.shape +
+        " style shape, and I currently use " + snowboard.bindings + " bindings.";
+}    

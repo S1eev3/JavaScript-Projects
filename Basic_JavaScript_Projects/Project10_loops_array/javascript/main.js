@@ -80,3 +80,14 @@ let vehicle = {
 };
 document.getElementById("Vehicle_Object").innerHTML = vehicle.description();
 
+
+function breakFunction() {
+    var text = "";
+    var i = 0;
+    while (i < 10) {
+        text += "<br>The number is " + i;
+        i++
+        if (i === 5) { break; }
+    }
+    document.getElementById("break").innerHTML = text;
+}

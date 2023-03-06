@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>jQuery</title>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+
+<body>
+
+
+    <script>
+        $(document).ready(function() {  //When page is loaded runs this function
+            $("html").append(   //appends html page with following content
+                "<body>\
+                    <div id = 'container'>\
+                        <div id = 'inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id = '1'>Paragraph 1</p>\
+                            <p id = '2'>Paragraph 2</p>\
+                            <p id = '3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+            $("#2").css({"color":"red"});   //Changes p2 element font color to red
+            $("#3").click(function() {      //Function for click event on p3 element
+                $('h1').hide();         //Hides h1 element onclick event
+            });
+        });
+
+
+    </script>
+</body>    
+</html>
